@@ -70,6 +70,7 @@ namespace Week2_Day1
             //char[] lastName = { 'S', 'W', 'E', 'E', 'T' };
             //Console.WriteLine(lastName.Length);
 
+            //
             //string[] directions = new string[4];
             //directions[0] = "Left";
             //directions[1] = "Right";
@@ -87,12 +88,57 @@ namespace Week2_Day1
 
             //Console.WriteLine(directions[directions.Length - 1]);
 
-            Console.WriteLine("PLease enter the size of your array.");
-            int arraySize = int.Parse(Console.ReadLine());
+            //
+            //Console.WriteLine("PLease enter the size of your array.");
+            //int arraySize = int.Parse(Console.ReadLine());
 
-            int[] newArray = new int[arraySize];
+            //int[] newArray = new int[arraySize];
 
-            Console.WriteLine("The array is of length " + newArray.Length);
+            //Console.WriteLine("The array is of length " + newArray.Length);
+
+
+            //string[] birthMonths = { "October", "July", "October", "May" };
+            //Console.WriteLine(Array.IndexOf(birthMonths,"October"));
+
+            //int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            //Console.WriteLine(Array.LastIndexOf(numbers, 4));
+
+            //Array.Reverse(numbers);
+            //Console.WriteLine(numbers[0]);
+
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[numbers.Length - 1]);
+
+
+            //Practice Problems
+
+            string[] firstNames = { "Brad", "Cheria", "Rashida", "Ali", "Nick", "Bryan" };
+            Console.WriteLine(firstNames[2]);
+            Console.WriteLine(Array.IndexOf(firstNames, "Rashida"));
+
+            int[] luckyNumbers = { 2, 5, 4, 3, 7, 1, 13 };
+            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 5));
+
+            char[] letters = { 'd', 's', 'h', 'f', 'e', 'j', 'k', 'n' };
+            Console.WriteLine(letters[0]);
+            Array.Reverse(letters);
+            Console.WriteLine(letters[0]);
+
+            string[] randoNames = { "Brad", "Cheria", "Rashida", "Ali", "Nick", "Bryan" };
+            Array.Sort(firstNames);
+            Console.WriteLine(randoNames[0]);
+            Console.WriteLine(randoNames[randoNames.Length - 1]);
+
+            double[] favNumbers = { 13, 3, 26, 7, 90, 1040, 45, 32, 1.618, 4, 16 };
+            Array.Sort(favNumbers);
+            Console.WriteLine(favNumbers[0]);
+            Console.WriteLine(favNumbers[favNumbers.Length - 1]);
+
+
+
+
+
 
 
 
